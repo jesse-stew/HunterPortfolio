@@ -1,0 +1,195 @@
+/**********
+GENERAL
+**********/
+
+a {
+	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+img {
+	max-width: 100%;	
+}
+
+
+
+
+/**********
+HEADING
+**********/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 3px 0 0 0;
+	width: 100%;
+	border-bottom-style: dashed;
+	border-bottom-color: #fff;
+	border-bottom-width: 4px;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Monofett', cursive;
+	margin: 15px 0;
+	font-size: 7em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+
+
+
+/**********
+NAVIGATION
+**********/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-size: 1.25em;
+	padding: 15px 10px;
+}
+
+
+
+
+/**********
+PAGE: PORTFOLIO
+**********/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2%;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #fff;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+/**********
+PAGE: ABOUT
+**********/
+
+.abouttext {
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	font-size: 1.25em;
+}
+
+.abouttext a {
+	font-size: .75em;
+}
+
+.abouttext a, .abouttext a:visited {
+	color: #FFEE00
+}
+
+.abouttext a:hover {
+	color: #E62727;
+}
+
+
+
+
+/**********
+PAGE: CONTACT
+**********/
+
+#contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+#contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;	
+}
+
+.contacttext {
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	font-size: 1.25em;
+}
+
+
+/**********
+COLORS
+**********/
+
+/* site body */
+body {
+	background-color: #0B1AE6;
+	color: #fff;
+}
+
+/* logo text */
+h1 {
+	color: #fff;
+} 
+
+/* nav link */
+nav a, nav a:visited {
+	color: #FFEE00;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #E62727;
+}
+
+/*contact links*/
+#contact-info a, #contact-info a:visited {
+	color: #FFEE00;
+}
+
+/* hover contact link */
+#contact-info a:hover {
+	color: #E62727;
+}
