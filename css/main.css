@@ -113,7 +113,8 @@ PAGE: ABOUT
 **********/
 
 .abouttext {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	text-align: left;
 	font-size: 1.25em;
 }
@@ -130,7 +131,10 @@ PAGE: ABOUT
 	color: #E62727;
 }
 
-
+#beardphoto img {
+	width: 50%;
+	height: auto;
+}
 
 
 /**********
@@ -141,19 +145,17 @@ PAGE: CONTACT
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	font-size: 0.9em;
+	font-size: .6em;
 }
 
 #contact-info a {
 	display: block;
-	min-height: 20px;
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	padding: 0 0 0 30px;	
+	min-height: 20px;	
 }
 
 .contacttext {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	text-align: left;
 	font-size: 1.25em;
 }
